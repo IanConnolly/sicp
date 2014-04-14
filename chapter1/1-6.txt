@@ -1,0 +1,3 @@
+Because the new-if is a procedure, by applicative order evaluation we evaluate all
+sub-expressions before evaluating the new-if expression. (As opposed to the special form
+if which only evaluates the appropriate sub-expression iff. its condition is matched)
