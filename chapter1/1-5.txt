@@ -1,0 +1,5 @@
+Under applicative order, the expression never terminates because (p) continually evaluates to
+(p) until infinity.
+
+Under normal order, the expansions occur before the reductions and thus it evaluates to
+0 before (p) needs to be evaluated.
